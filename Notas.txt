@@ -1,0 +1,19 @@
+> nome = 'MAria'
+'MAria'
+> idade = 48
+48
+> nota = 5.5
+5.5
+> 'A aluna ' + nome + ' de idade ' + idade + ' tirou a nota ' + nota
+'A aluna MAria de idade 48 tirou a nota 5.5'  //concatenação
+> `A aluna ${nome} de idade ${idade} tirou a nota ${nota}`  //Template string, ${} placeHolder
+'A aluna MAria de idade 48 tirou a nota 5.5'  
+
+Formatar numeros:
+> var n1 = 1545.5
+undefined
+'1545.50'
+> n1.toFixed(2).replace('.',',')
+'1545,50'
+ > n1.toLocaleString('pt-PT',{style: 'currency', currency: 'EUR'})
+'1545,50 €'
