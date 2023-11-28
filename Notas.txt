@@ -17,3 +17,23 @@ undefined
 '1545,50'
  > n1.toLocaleString('pt-PT',{style: 'currency', currency: 'EUR'})
 '1545,50 €'
+
+Aritméticos:
+5 + 2 =  7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1   --Resto divisão
+5 ** 2 = 25   -- Potencia  5^2
+
+Ordem de Precedência
+()
+**
+* / %
++ -
+
+No query selector:
+window.documet.queryselector('atributo')
+    quando class atributo = div.nomedaclass
+    quando id atributo = div#idDaDIV
+
